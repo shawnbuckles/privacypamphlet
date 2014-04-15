@@ -1,0 +1,150 @@
+/************************************************/
+/*         Onze vrijheid wordt bedreigd         */
+/************************************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background: #95a5a6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+/* ---------------------- */
+
+/* typography */
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;    
+    font-size: 1.6em;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: .4em;
+    text-transform: uppercase;
+    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+}
+
+blockquote {
+    font-family: skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 2em;
+    line-height: 1em;
+    letter-spacing: -0.05em;
+    font-weight: normal;
+    margin: 1em 0 .5em 0;
+    color: #c0392b
+}
+
+p {
+    font-size: 0.9em;
+}
+
+a {
+    color: #34495e;
+}
+a:hover {
+    color: #c0392b
+}
+
+/* ---------------------- */
+
+/* lay-out */
+
+section {
+}
+
+.story-content {
+    margin: 0 auto;
+}
+
+.site-width {
+    width: 90%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.copy-width {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+
+/* sections */
+
+.aanhef {
+    color: #34495e;
+    padding: 4em 0 1em 0;
+}
+
+.aanhef h1 {
+    line-height: 1em;
+    color: #2c3e50;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-top: .3em;
+    border-top: 15px #c0392b solid;
+}
+.aanhef h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    padding-bottom: .3em;
+    border-bottom: 15px #c0392b solid;
+}
+
+/* ---------------------- */
+
+.content {
+    clear: both;
+    color: #2c3e50;
+}
+.content .site-width {
+    background: #ecf0f1;
+    padding: 2em 0;
+    box-shadow: 0px 0px 20px #7f8c8d;
+}
+
+.footer {
+    margin-top: 4em;
+    font-size: .7em;
+    padding-bottom: 2em;
+}
+.footer .site-width{
+}
+.footer blockquote {
+    color: #34495e;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
